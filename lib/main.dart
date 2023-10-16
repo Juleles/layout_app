@@ -1,7 +1,23 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  return runApp(MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(
+        title: const Text("Jules William Custodio 23-24"),
+      ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Container(
+            decoration: BoxDecoration(
+              color: Color.fromARGB(255, 85, 196, 248),),
+          )
+        ],
+      ),
+    )
+  ));
 }
 
 class MyApp extends StatelessWidget {
